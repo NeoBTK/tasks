@@ -15,7 +15,7 @@ import java.util.*;
 public class TrelloClient {
     private final RestTemplate restTemplate;
 
-    @Value("${trello.api.username}")
+    @Value("${trello.app.username}")
     private String username;
 
     @Value("${trello.api.endpoint.prod}")
