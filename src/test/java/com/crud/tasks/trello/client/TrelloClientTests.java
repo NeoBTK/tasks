@@ -20,14 +20,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-class TrelloClientTest {
+class TrelloClientTests {
 
     @InjectMocks
     private TrelloClient trelloClient;
-
     @Mock
     private RestTemplate restTemplate;
-
     @Mock
     private TrelloConfig trelloConfig;
 
