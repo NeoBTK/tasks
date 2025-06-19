@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-class DbServiceTests {
+class DbServiceTest {
     private Task task1;
     private Task task2;
     @Mock

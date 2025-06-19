@@ -13,7 +13,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @ExtendWith(OutputCaptureExtension.class)
-class TrelloValidatorTests {
+class TrelloValidatorTest {
     private final TrelloValidator trelloValidator = new TrelloValidator();
 
     @Test

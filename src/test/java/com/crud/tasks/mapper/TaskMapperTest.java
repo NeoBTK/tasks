@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TaskMapperTests {
+class TaskMapperTest {
     private TaskMapper taskMapper;
 
     @Test

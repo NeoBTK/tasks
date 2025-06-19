@@ -17,7 +17,7 @@ import static org.mockito.ArgumentMatchers.anyList;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-public class TrelloFacadeTests {
+public class TrelloFacadeTest {
     @InjectMocks
     private TrelloFacade trelloFacade;
     @Mock

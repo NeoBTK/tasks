@@ -9,7 +9,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class TrelloMapperTests {
+public class TrelloMapperTest {
     private TrelloMapper trelloMapper;
 
     @Test
